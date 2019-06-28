@@ -16,9 +16,20 @@ public class StringCalculatorShould {
             "1\n2,3",
             "//;\n1;2, 3"
     })
-    public void calculate_Addition_Numbers(String numbers, int result) {
+    public void calculate_Addition_Numbers(String numbers, int result) throws NumberNegativesIsNotAllowedException {
         StringCalculator stringCalculator = new StringCalculator();
 
         assertThat(stringCalculator.add(numbers)).isEqualTo(result);
+    }
+
+    @Test
+    public void negative_Numbers_Is_Not_Allowed() throws NumberNegativesIsNotAllowedException {
+        StringCalculator stringCalculator = new StringCalculator();
+
+        try {
+            stringCalculator.add("1,-2,-3");
+        } catch (Exception ex) {
+            assertThat(ex.getMessage()).isEqualTo("error: negatives not allowed: 1,-2,-3");
+        }
     }
 }

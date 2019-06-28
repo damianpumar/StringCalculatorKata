@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="StringCalculatorShould" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-06-28T14:24:47" hostname="Damians-MacBook-Pro.local" time="0.065">
+<testsuite name="StringCalculatorShould" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-06-28T14:52:55" hostname="Damians-MacBook-Pro.local" time="0.046">
   <properties/>
-  <testcase name="calculate_Addition_Numbers( , 0) [0]" classname="StringCalculatorShould" time="0.062"/>
-  <testcase name="calculate_Addition_Numbers(1, 1) [1]" classname="StringCalculatorShould" time="0.001"/>
-  <testcase name="calculate_Addition_Numbers(1;2, 3) [2]" classname="StringCalculatorShould" time="0.0"/>
+  <testcase name="negative_Numbers_Is_Not_Allowed" classname="StringCalculatorShould" time="0.001"/>
+  <testcase name="calculate_Addition_Numbers( , 0) [0]" classname="StringCalculatorShould" time="0.038"/>
+  <testcase name="calculate_Addition_Numbers(1, 1) [1]" classname="StringCalculatorShould" time="0.0"/>
+  <testcase name="calculate_Addition_Numbers(1;2, 3) [2]" classname="StringCalculatorShould" time="0.001"/>
   <testcase name="calculate_Addition_Numbers(1;2;3;4;5;6;7;8;9, 45) [3]" classname="StringCalculatorShould" time="0.0"/>
   <testcase name="calculate_Addition_Numbers(1 2,3) [4]" classname="StringCalculatorShould" time="0.0"/>
-  <testcase name="calculate_Addition_Numbers(//; 1;2, 3) [5]" classname="StringCalculatorShould" time="0.0"/>
+  <testcase name="calculate_Addition_Numbers(//; 1;2, 3) [5]" classname="StringCalculatorShould" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

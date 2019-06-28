@@ -1,5 +1,5 @@
 public class StringCalculator {
-    int add(String numbers) {
+    int add(String numbers) throws NumberNegativesIsNotAllowedException {
         if (numbers.isEmpty())
             return 0;
 
@@ -13,13 +13,25 @@ public class StringCalculator {
         int total = 0;
 
         for (int i = 0; i < numbersParsed.length; i++) {
-            try {
-                total += Integer.parseInt(numbersParsed[i]);
-            } catch (Exception e) {
+            Integer number = this.tryParseInteger(numbersParsed[i]);
+
+            if (number == null)
                 continue;
-            }
+
+            if (number < 0)
+                throw new NumberNegativesIsNotAllowedException(numbers);
+
+            total += number;
         }
 
         return total;
+    }
+
+    private Integer tryParseInteger(String number) {
+        try {
+            return Integer.parseInt(number);
+        } catch (Exception e) {
+            return null;
+        }
     }
 }
