@@ -11,7 +11,8 @@ public class StringCalculatorShould {
     @Parameters({
             " , 0",
             "1, 1",
-            "1;2, 3"
+            "1;2, 3",
+            "1;2;3;4;5;6;7;8;9, 45"
     })
     public void calculate_Addition_Numbers(String numbers, int result) {
         StringCalculator stringCalculator = new StringCalculator();
