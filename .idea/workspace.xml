@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c36e2e7d-1b8b-4ee2-9a7e-1878539e081e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StringCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StringCalculatorShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StringCalculatorShould.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -29,14 +29,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/StringCalculatorShould.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="241">
+              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/StringCalculator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -64,15 +73,15 @@
         <option value="$PROJECT_DIR$/src/test/java/StringCalculator.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/NumberNegativesIsNotAllowedException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/StringCalculator.java" />
         <option value="$PROJECT_DIR$/src/test/java/StringCalculatorShould.java" />
+        <option value="$PROJECT_DIR$/src/main/java/StringCalculator.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="687" />
+    <option name="height" value="684" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -134,7 +143,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.StringCalculatorShould.calculate_Addition_Numbers">
+  <component name="RunManager" selected="Gradle.StringCalculatorShould">
     <configuration name="StringCalculatorShould" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -237,8 +246,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.StringCalculatorShould.calculate_Addition_Numbers" />
         <item itemvalue="Gradle.StringCalculatorShould" />
+        <item itemvalue="Gradle.StringCalculatorShould.calculate_Addition_Numbers" />
         <item itemvalue="Gradle.StringCalculatorShould.negative_Numbers_Is_Not_Allowed" />
         <item itemvalue="Gradle.Tests in 'StringCalculatorKata.test'" />
         <item itemvalue="Gradle.StringCalculatorShould.be_Zero_When_Calculator_Receive_Empty_String" />
@@ -249,12 +258,6 @@
     <configuration />
   </component>
   <component name="TestHistory">
-    <history-entry file="StringCalculatorShould - 2019.06.28 at 16h 48m 47s.xml">
-      <configuration name="StringCalculatorShould" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="Tests_in_'StringCalculatorKata_test' - 2019.06.28 at 16h 51m 07s.xml">
-      <configuration name="Tests in 'StringCalculatorKata.test'" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="StringCalculatorShould_negative_Numbers_Is_Not_Allowed - 2019.06.28 at 16h 51m 44s.xml">
       <configuration name="StringCalculatorShould.negative_Numbers_Is_Not_Allowed" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -279,9 +282,15 @@
     <history-entry file="StringCalculatorShould_calculate_Addition_Numbers - 2019.06.28 at 16h 54m 42s.xml">
       <configuration name="StringCalculatorShould.calculate_Addition_Numbers" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="StringCalculatorShould - 2019.06.28 at 16h 57m 22s.xml">
+      <configuration name="StringCalculatorShould" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="StringCalculatorShould - 2019.06.28 at 16h 57m 34s.xml">
+      <configuration name="StringCalculatorShould" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="820" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="819" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
@@ -293,7 +302,7 @@
       <window_info anchor="bottom" id="Build" weight="0.32967034" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32967034" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33012378" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997253" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -391,20 +400,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/StringCalculator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/StringCalculatorShould.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="241">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StringCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
