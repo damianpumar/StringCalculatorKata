@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="StringCalculatorShould" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-28T14:04:41" hostname="Damians-MacBook-Pro.local" time="0.04">
+  <properties/>
+  <testcase name="calculate_Addition_Numbers( , 0) [0]" classname="StringCalculatorShould" time="0.039"/>
+  <testcase name="calculate_Addition_Numbers(1, 1) [1]" classname="StringCalculatorShould" time="0.0"/>
+  <testcase name="calculate_Addition_Numbers(1;2, 3) [2]" classname="StringCalculatorShould" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
