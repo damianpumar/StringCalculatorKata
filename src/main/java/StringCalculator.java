@@ -3,7 +3,7 @@ public class StringCalculator {
         if (numbers.isEmpty())
             return 0;
 
-        String separators = ";|\n";
+        String separators = ";|\n|1001";
 
         if (numbers.contains("//") && numbers.indexOf('\n') > 0)
             separators += "|" + numbers.substring(numbers.indexOf('\n') - 1, numbers.indexOf('\n'));

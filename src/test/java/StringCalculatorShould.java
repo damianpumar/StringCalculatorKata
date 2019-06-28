@@ -13,8 +13,9 @@ public class StringCalculatorShould {
             "1, 1",
             "1;2, 3",
             "1;2;3;4;5;6;7;8;9, 45",
-            "1\n2,3",
-            "//;\n1;2, 3"
+            "1\n2, 3",
+            "//;\n1;2, 3",
+            "1001;2, 2"
     })
     public void calculate_Addition_Numbers(String numbers, int result) throws NumberNegativesIsNotAllowedException {
         StringCalculator stringCalculator = new StringCalculator();
